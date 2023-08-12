@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+
+    "noImplicitThis": true,
+
+    "strict": true,
+    "strictNullChecks": true,
+
+    "isolatedModules": true,
+    "preserveValueImports": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "importsNotUsedAsValues": "error",
+    "noImplicitOverride": true,
+
+    "target": "ESNext",
+
+    "skipLibCheck": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

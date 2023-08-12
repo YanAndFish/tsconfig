@@ -1,0 +1,33 @@
+{
+  "name": "@yafh/tsconfig",
+  "version": "0.0.1",
+  "description": "TypeScript configuration for YanAndFish",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanAndFish/tsconfig.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "config"
+  ],
+  "author": "YanAndFish <383904425@qq.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./*": {
+      "default": "./*"
+    },
+    ".": {
+      "default": "./tsconfig.json"
+    }
+  },
+  "dependencies": {
+    "@tsconfig/node18": "^18.2.0"
+  }
+}

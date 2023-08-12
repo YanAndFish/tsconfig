@@ -1,0 +1,7 @@
+{
+  "extends": ["./tsconfig.json", "@tsconfig/node18/tsconfig.json"],
+  "types": ["node"],
+  "compilerOptions": {
+    "moduleResolution": "Node"
+  }
+}
