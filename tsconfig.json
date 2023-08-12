@@ -16,16 +16,11 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
 
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "noImplicitOverride": true,
 
     "target": "ESNext",
 
-    "skipLibCheck": true,
-
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "skipLibCheck": true
   }
 }
