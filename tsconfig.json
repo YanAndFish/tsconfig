@@ -11,7 +11,6 @@
     "strictNullChecks": true,
 
     "isolatedModules": true,
-    "preserveValueImports": true,
 
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
