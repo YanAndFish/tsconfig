@@ -1,7 +1,6 @@
 {
-  "extends":"./tsconfig.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "composite": true,
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
