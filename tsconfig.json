@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
-
-    "noImplicitThis": true,
 
     "strict": true,
     "strictNullChecks": true,
@@ -16,10 +16,11 @@
     "forceConsistentCasingInFileNames": true,
 
     "verbatimModuleSyntax": true,
+    "noImplicitThis": true,
     "noImplicitOverride": true,
 
-    "target": "ESNext",
-
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "pretty": true,
+    "stripInternal": true
   }
 }
