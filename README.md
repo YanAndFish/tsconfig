@@ -37,9 +37,11 @@ or
 
 ## Supported scene presets
 
-| scene  |              file name              |
-| :----: | :---------------------------------: |
-| nodejs | `@yafh/tsconfig/tsconfig.node.json` |
-|  vue   | `@yafh/tsconfig/tsconfig.vue.json`  |
-|  lib   | `@yafh/tsconfig/tsconfig.lib.json`  |
-| custom |   `@yafh/tsconfig/tsconfig.json`    |
+|          scene          |              file name              |
+| :---------------------: | :---------------------------------: |
+|         nodejs          | `@yafh/tsconfig/tsconfig.node.json` |
+|           vue           | `@yafh/tsconfig/tsconfig.vue.json`  |
+|           lib           | `@yafh/tsconfig/tsconfig.lib.json`  |
+|         custom          |   `@yafh/tsconfig/tsconfig.json`    |
+| experimental decorators | `@yafh/tsconfig/tsconfig.dec.json`  |
+| incremental compilation | `@yafh/tsconfig/tsconfig.inc.json`  |
