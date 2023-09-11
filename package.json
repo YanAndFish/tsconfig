@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "bumpp": "^9.1.1"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9"
   }
 }
